@@ -9,7 +9,7 @@ const middleware = (app) => {
   app.use(
     cors({
       credentials: true,
-      origin: "https://webmanagement-client.herokuapp.com",
+      origin: "https://shopmanagement-client.herokuapp.com",
     })
   );
   // app.use(cors({credentials: true, origin: 'http://localhost:3000'}))
