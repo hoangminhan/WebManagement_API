@@ -1,5 +1,7 @@
 const getPage = (page, size) => {
-  page < 0 ? page = 1 : page = page
+  if (page < 0) {
+    return {}
+  }
   page = parseInt(page)
   let skip = (page - 1) * size
   let limit = size
