@@ -9,7 +9,7 @@ const middleware = (app) => {
   app.use(
     cors({
       credentials: true,
-      origin: "https://shopmanagement-client.herokuapp.com",
+      origin: "https://react-hook-management.herokuapp.com",
     })
   );
   // app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
